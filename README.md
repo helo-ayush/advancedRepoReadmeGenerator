@@ -65,24 +65,6 @@ Supports both public and private GitHub repositories.
 
 ---
 
-## 📂 Project Structure
-
-.
-├── index.html
-├── src/
-│ ├── main.jsx # React entry point
-│ ├── App.jsx # Main component
-│ └── index.css # Global styles (includes Tailwind imports)
-├── vite.config.js # Vite configuration
-├── package.json # Project scripts & dependencies
-├── eslint.config.js # ESLint configuration
-└── package-lock.json # Exact dependency versions
-
-yaml
-Copy code
-
----
-
 ## 📚 Dependencies
 
 - **react** – UI library  
@@ -117,13 +99,6 @@ Configured with:
 - React Hooks rules  
 - React Refresh rules  
 - Custom globals and parser options  
-
----
-
-## 🔑 Environment Variables
-
-- `apiKey` → Gemini API Key  
-  Replace `"AIzaSyAYIn86j-FdhSF3wEi6gcjfHImcL8tyoj4"` with your own Gemini API key.  
 
 ---
 
