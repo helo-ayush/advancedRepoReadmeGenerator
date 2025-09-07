@@ -77,7 +77,9 @@ Requirements:
 - Use code blocks with proper language syntax highlighting
 - Keep it comprehensive but concise
 - Make it look professional on GitHub's interface
-- Include any dependencies or requirements found in the code`;
+- Include any dependencies or requirements found in the code
+- Only give the Final Readme.md Content (No Comments/Reply)
+`;
       
       const readme = await callGemini(prompt);
       setResult(readme);
