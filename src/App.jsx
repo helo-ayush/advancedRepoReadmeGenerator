@@ -66,7 +66,7 @@ export default function ReadmeGenerator() {
       }
       
       // create a better prompt for the AI
-      const prompt = `Write a comprehensive README.md file for this repository based on the following code files:
+      const prompt = `Create a professional README.md file in GitHub markdown format for this repository. Here are all the code files:
 
 ${codeFiles}
 
@@ -77,9 +77,7 @@ Requirements:
 - Use code blocks with proper language syntax highlighting
 - Keep it comprehensive but concise
 - Make it look professional on GitHub's interface
-- Include any dependencies or requirements found in the code
-- Only give the Final Readme.md Content (No Comments/Reply)
-`;
+- Include any dependencies or requirements found in the code`;
       
       const readme = await callGemini(prompt);
       setResult(readme);
