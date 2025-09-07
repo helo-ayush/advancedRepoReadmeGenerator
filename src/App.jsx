@@ -66,7 +66,7 @@ export default function ReadmeGenerator() {
       }
       
       // create a better prompt for the AI
-      const prompt = `Create a professional README.md file in GitHub markdown format for this repository. Here are all the code files:
+      const prompt = `Write a comprehensive README.md file for this repository based on the following code files:
 
 ${codeFiles}
 
