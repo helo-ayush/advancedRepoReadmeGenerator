@@ -70,7 +70,7 @@ export default function ReadmeGenerator() {
 
       ${codeFiles}
 
-      Make it comprehensive but not too long. Include installation, usage, and any important info.`;
+      Make it comprehensive but not too long. Include installation, usage, and any important info, make sure to use proper GitHub markdown syntax`;
       
       const readme = await callGemini(prompt);
       setResult(readme);
