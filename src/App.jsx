@@ -198,7 +198,7 @@ export default function ReadmeGenerator() {
               <span className="font-medium text-gray-700">Repository Access</span>
               <button
                 onClick={() => setPrivateRepo(!privateRepo)}
-                className={`flex items-center gap-2 px-3 py-2 rounded-md font-medium text-sm transition-colors ${
+                className={`flex cursor-pointer items-center gap-2 px-3 py-2 rounded-md font-medium text-sm transition-colors ${
                   privateRepo 
                     ? 'bg-red-100 text-red-700 hover:bg-red-150' 
                     : 'bg-green-100 text-green-700 hover:bg-green-150'
@@ -269,8 +269,9 @@ export default function ReadmeGenerator() {
               </div>
               <div className="text-xs text-orange-700 bg-orange-100 p-2 rounded">
                 <p className="font-medium">How to get a token:</p>
-                <p>GitHub Settings → Developer settings → Personal access tokens → Generate new token</p>
-                <p>Make sure to select the "repo" scope for full repository access</p>
+                <p>👉 GitHub Settings → Developer settings → Personal access tokens → tokens (Classic) → </p>
+                <p>👉 Generate New Token (Classic) → Any Note → Any Expiration Date → Scopes (Repo For now) → </p>
+                <p>👉 Generate Token</p>
               </div>
             </div>
           )}
